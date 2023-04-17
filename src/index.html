@@ -5,10 +5,48 @@
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+<!--ENCABEZADO-->
+
+<header class="titulo-verifica">
+    <h1>Verifica tu tarjeta</h1>
+</header>
+
+<body>
+  <main class="container">
+      <ul div class="nav">
+        <li><a href="#">| ¿Quiénes somos? |</a></li>
+        <li><a href="#">| Contacto |</a></li>
+      </ul>
+      <div class="tarjeta">
+<img src="/src/img/tarjeta.png" alt="tarjeta">
+</div>
+
+<form accion="">
+<div class="contenedor_tarjeta">
+  <label for="nombre">NOMBRE</label>
+  <input type="tex" placeholder="Ingresa Tu Nombre" id="nombreUsuario" size="40">
+</br>
+<label for="nombre">INGRESA TU TARJETA</label>
+<input type="text" name="numeroDeTarjeta" placeholder="Número De Tarjeta" id="numeroDeTarjeta" maxlength="16">
+</br>
+<label for="nombre">CONTRASEÑA</label>
+<input type="password" class="cvv" placeholder="CCV" id="pin" maxlength="4">
+</br>
+
+<!-- DUDA:::::SUBMIT o  button-->
+<button type="submit" onclick="captura">¡VERIFICAR!</button>
+</div>
+</div>
+</form>
+
+</main>
+
+<footer>
+  <div class="pie">
+ <p> Buscanos en @PastelesDESIREE</p>
+</div>
+</footer>
+<script src="index.js" type="module"></script>
+</body>
 </html>
+

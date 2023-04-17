@@ -1,5 +1,14 @@
-const validator = {
-  // ...
-};
+const validator= {
+  isValid: function(creditCardNumber){
+    console.log("voy a validar" + creditCardNumber)
+  },
 
-export default validator;
+
+
+  maskify: function(creditCardNumber){
+    console.log("voy a enmascara"+creditCardNumber)
+
+  },
+}
+
+validator
