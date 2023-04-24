@@ -1,5 +1,5 @@
 body {
-  width: 100%;
+width: 100%;
   height: 100vh;
 background-image: url("/src/img/fondo4.jpg");
 background-repeat: no-repeat;
@@ -62,8 +62,8 @@ position: relative;
   opacity: 75%;
 }
 .contenedor_tarjeta {
- position: absolute;
- text-align: center ;
+  position: absolute;
+  text-align: center ;
   left: 50%;
   top: 50%;
   transform: translateX(-50%);
@@ -78,6 +78,10 @@ position: relative;
 
 font-size: 12px;
 }
-
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
 
 
