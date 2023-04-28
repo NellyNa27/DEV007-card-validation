@@ -74,24 +74,24 @@ trabajo cubra los objetivos principales.
 **1. Una interfaz que debe permitir a la usuaria:**
 
 * Insertar un numero (texto) que quieres validar. Usa solo caracteres numéricos
-  (dígitos) en la tarjeta a validar [0-9].  
-* Ver si el resultado es válido o no.  
+  (dígitos) en la tarjeta a validar [0-9].
+* Ver si el resultado es válido o no.
 * Ocultar todos los dígitos del número de tarjeta a exepción de los últimos
-  4 caracteres.  
-* No debes poder ingresar un campo vacío.  
+  4 caracteres.
+* No debes poder ingresar un campo vacío.
 
-**2. Pruebas unitarias de los métodos.**  
+**2. Pruebas unitarias de los métodos.**
 Los metódos de `validator` (`isValid` y `maskify`) deben tener cobertura con
 pruebas unitarias.
 
-**3. Código de tu proyecto subido a tu repo e interfaz "desplegada".**  
+**3. Código de tu proyecto subido a tu repo e interfaz "desplegada".**
 El código final debe estar subido en un repositorio en GitHub. La interfaz o
 pagina web, debe ser "desplegada" (accesible públicamente online) usando
 GitHub Pages.
-  
-**4. Un README que contiene una definición del producto.**  
+
+**4. Un README que contiene una definición del producto.**
 En el README cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.  
+para definir el producto final a nivel de experiencia y de interfaz.
 Estas preguntas sirven como guía:
 
 * Quiénes son los principales usuarios de producto.
