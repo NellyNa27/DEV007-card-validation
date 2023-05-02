@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+<!--ENCABEZADO-->
+<header class="titulo-verifica">
+    <h1>Verifica tu tarjeta</h1>
+</header>
+
+<body>
+  <div id="fondo">
+    <img src="/src/img/fondo4.png" alt="fondo">
+  </div>
+  <div class="container">
+
+    <ul div class="nav">
+      <li><a href="#">| ¿Quiénes somos? |</a></li>
+      <li><a href="#">| Contacto |</a></li>
+    </ul>
+  </div>
+  <div class="tarjeta">
+    <img src="/src/img/tarjeta.png" alt="tarjeta">
+  </div>
+
+  <form id="form_tarjeta">
+    <div class="contenedor_tarjeta">
+      <label for="username">NOMBRE:</label>
+      <input type="tex" name="username" placeholder="Ingresa Tu Nombre" id="username" size="40" required>
+      <br>
+      <label for="cardNumber">INGRESA TU TARJETA:</label>
+      <!--Mostrar solo números en "numero de tarjeta"-->
+      <input type="tel" name="cardNumber" placeholder="0000-0000-0000-0000" maxlength="16" id="cardNumber" required>
+      <br>
+      <!--CcV-->
+      <label for="nombre">CONTRASEÑA:</label>
+      <input type="password" class="cvv" placeholder="CCV" id="pin" maxlength="3" required>
+      <br>
+      <!--<label for="nombre">FECHA DE VENCIMINETO</label>
+      <input type="date"  id="fechaV" name="fechaV"
+      value="2023-01-23"
+      min="1923-01-01" max="2028-11-05">
+    </br>-->
+      <button id="boton-V">¡VERIFICAR!</button>
+    </div>
+  </form>
+
+  <footer>
+    <div class="pie">
+    <p> Buscanos en @PastelesDESIREE</p>
+  </div>
+  </footer>
+
+  <script src="index.js" type="module"></script>
+
+</body>
+</html>
+
