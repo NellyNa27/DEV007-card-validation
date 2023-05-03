@@ -31,21 +31,16 @@ la suma de sus dígitos finales es un múltiplo de 10.
 
 ## 2. Resumen del proyecto
 
-En este proyecto tendrás que construir una aplicación web que le permita a un
-usuario validar el número de una tarjeta de crédito. Además, tendrás que
-implementar funcionalidad para ocultar todos los dígitos de una tarjeta menos
+Proyecto en la que se construye una aplicación web que le permite a un
+usuario validar el número de una tarjeta de crédito. Además, se implementa funcionalidad para ocultar todos los dígitos de una tarjeta menos
 los últimos cuatro.
 
-La temática es libre. Tú debes pensar en qué situaciones de la vida real se
-necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
+Temática libre, en realidad la podemos aplicar en cualquier situación de la vida real, en dónde se va a validar una tarjeta de crédito y pensar en cómo debe ser esa
 experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
 etc.
 
-Como continuación del proyecto de preadmisión, volverás a trabajar sobre
-fundamentos de JavaScript, incluyendo conceptos como variables, condicionales,
-y funciones, así como eventos y manipulación básica del DOM, fundamentos de
-HTML y CSS. Mientras desarrollas este proyecto, te familiarizarás con nuevos
-conceptos también.
+Utilizando fundamentos de JavaScript, conceptos como variables, condicionales,
+y funciones, así como eventos y manipulación básica del DOM, fundamentos de HTML y CSS.
 
 ### Los objetivos generales de este proyecto son los siguientes
 
@@ -59,48 +54,55 @@ conceptos también.
 
 ## 3. Consideraciones generales
 
-* Este proyecto lo resolvemos de manera **individual**.
+* Este proyecto se resuelve de manera **individual**.
 * El rango de tiempo estimado para completar el proyecto es de 1 a 3 Sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto.
-* Te sugerimos que no intentes saberlo todo antes de empezar a codear.
-  No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
-  Irás aprendiendo.
+* En el camino las dudas seran resueltas con investigación y comprensión del problema.
 
 ## 4. Hito: Criterios de aceptación mínimos del proyecto
 
 Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu
 trabajo cubra los objetivos principales.
 
-**1. Una interfaz que debe permitir a la usuaria:**
+**1. Una interfaz que debe permitir al usuario:**
 
-* Insertar un numero (texto) que quieres validar. Usa solo caracteres numéricos
+* Insertar un numero (texto) a validar. Solo caracteres numéricos
   (dígitos) en la tarjeta a validar [0-9].
 * Ver si el resultado es válido o no.
 * Ocultar todos los dígitos del número de tarjeta a exepción de los últimos
   4 caracteres.
 * No debes poder ingresar un campo vacío.
 
+
+![](./images/Readme3.png)
+
+
 **2. Pruebas unitarias de los métodos.**
 Los metódos de `validator` (`isValid` y `maskify`) deben tener cobertura con
 pruebas unitarias.
 
-**3. Código de tu proyecto subido a tu repo e interfaz "desplegada".**
+**3. Código del proyecto es subido a mi repo e interfaz "desplegada".**
 El código final debe estar subido en un repositorio en GitHub. La interfaz o
 pagina web, debe ser "desplegada" (accesible públicamente online) usando
 GitHub Pages.
 
 **4. Un README que contiene una definición del producto.**
-En el README cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
-para definir el producto final a nivel de experiencia y de interfaz.
-Estas preguntas sirven como guía:
+Este proyecto fue diseñado pensando en aquellas personas emprededoras en las que van formando su negocio OnLine y quieren crecer dentro de las redes sociales, creando su propia pagina web de sus productos y generando otra opción de compra y venta con el usuario facilitando otro método de pago.
 
-* Quiénes son los principales usuarios de producto.
-* Cuáles son los objetivos de estos usuarios en relación con tu producto.
-* Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
-Con estos requisitos cumplidos puedes
-[considerar agendar un Project Feedback con unx coach.](#9-para-considerar-project-feedback)
+![](./images/Readme1.png)
 
+
+* Usuario: **Pastelería Desirée** ***"Un pastel un deseo "*** Diseño de pasteles personalizados de fondant para ese momento inolbidable.
+
+* Objetivo: Lograr el mayor alcance dentro del mundo del internet y redes sociales, mostrando el trabajo realizado a los consumidores y así aumentar las ganancias con otra forma de pago.
+
+* Objetivo del usuario en relación con el producto: Crear dentro de una página web,
+un formulario para la validación de una tarjeta de pago.
+
+* El producto resuelve el problema: Mediante la creación de un formulario en el que se registran los datos de una tarjeta para su validación y poder de manera efectiva procesar el pago.
+
+
+----
 ## 5. Hito Opcional: Mostrar la franquicia de tarjeta
 
 Las partes opcionales tienen como intención permitirte profundizar un poco más
@@ -114,13 +116,16 @@ de la tarjeta (ej: Visa, MasterCard, etc)
 usando estas [reglas de validación](https://stevemorse.org/ssn/cc.html).
 Si escribes un nuevo método para eso, hay que hacer pruebas unitarias.
 
+----
+
+
 ## 6. Consideraciones técnicas
 
-La lógica del proyecto debe estar implementada completamente en JavaScript. En
+La lógica del proyecto está implementada completamente en JavaScript. En
 este proyecto NO está permitido usar librerías o frameworks, solo JavaScript
 puro también conocido como Vanilla JavaScript.
 
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
+Para comenzar este proyecto se hace un _fork_ y _clonar_ este
 repositorio que contiene un _boilerplate_ con tests (pruebas). Un _boilerplate_
 es la estructura basica de un proyecto que sirve como un punto de partida con
 archivos inicial y configuración basica de dependencias y tests.
@@ -130,6 +135,8 @@ y _lines_, y un mínimo del 50% de _branches_. El _boilerplate_ ya contiene el
 setup y configuración necesaria para ejecutar los tests (pruebas) así como _code
 coverage_ para ver el nivel de cobertura de los tests usando el comando `npm
 test`.
+
+![](./images/Readme6.png)
 
 El boilerplate que les damos contiene esta estructura:
 
@@ -153,18 +160,18 @@ El boilerplate que les damos contiene esta estructura:
 
 ### Descripción de scripts / archivos
 
-* `README.md`: debe explicar la información necesaria para el uso de tu aplicación
+* `README.md`: Explica la información necesaria para el uso de la aplicación
   web, así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
-* `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
-  debe contener tu _markup_ (HTML) e incluir el CSS y JavaScript necesario.
-* `src/style.css`: este archivo debe contener las reglas de estilo. Queremos que
-  escribas tus propias reglas, por eso NO está permitido el uso de frameworks de
-  CSS (Bootstrap, Materialize, etc).
-* `src/validator.js`: acá debes implementar el objeto `validator`, el cual ya está
-  _exportado_ en el _boilerplate_. Este objeto (`validator`) debe contener dos
+  diseño que se tomó.
+
+* `src/index.html`: Punto de entrada a la aplicación. Contiene _markup_ (HTML) e incluye CSS y JavaScript necesario.
+
+* `src/style.css`: Este archivo tiene las reglas de estilo.
+
+* `src/validator.js`: Se implementa el objeto `validator`, el cual ya está
+  _exportado_ en el _boilerplate_. Este objeto (`validator`) contiene dos
   métodos:
-  - `validator.isValid(creditCardNumber)`: `creditCardNumber` es un `string`
+  - `validator.isValid(creditCardNumber)`: `creditCardNumber`, un `string`
      con el número de tarjeta que se va a verificar. Esta función debe retornar
      un `boolean` dependiendo si es válida de acuerdo al [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn).
   - `validator.maskify(creditCardNumber)`: `creditCardNumber` es un `string` con
@@ -182,22 +189,29 @@ El boilerplate que les damos contiene esta estructura:
     maskify(               '')  ===                ''
     ```
 
-* `src/index.js`: acá debes escuchar eventos del DOM, invocar
+![](./images/Readme4.png)
+
+* `src/index.js`: En este apartado se escucha eventos del DOM, y se invoca
   `validator.isValid()` y `validator.maskify()` según sea necesario y
   actualizar el resultado en la UI (interfaz de usuario).
-* `test/validator.spec.js`: este archivo contiene algunos tests de ejemplo y acá
+
+
+![](./images/Readme5.png)
+
+
+* `test/validator.spec.js`: Este archivo contiene algunos tests de ejemplo y acá
   tendrás que implementar los tests para `validator.isValid()` y `validator.maskify()`.
 
 El _boilerplate_ incluye tareas que ejecutan [eslint](https://eslint.org/) y
 [htmlhint](https://github.com/yaniswang/HTMLHint) para verificar el `HTML` y
 `JavaScript` con respecto a una guías de estilos. Ambas tareas se ejecutan
 automáticamente antes de ejecutar las pruebas (tests) cuando usamos el comando
-`npm run test`. En el caso de `JavaScript` estamos usando un archivo de
+`npm run test`. En el caso de `JavaScript` se usa un archivo de
 configuración de `eslint` que se llama `.eslintrc` que contiene un mínimo de
 información sobre el parser que usar (qué version de JavaScript/ECMAScript), el
 entorno (browser en este caso) y las [reglas recomendadas (`"eslint:recommended"`)](https://eslint.org/docs/rules/).
 En cuanto a reglas/guías de estilo en sí,
-usaremos las recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
+se usa recomendaciones _por defecto_ de tanto `eslint` como `htmlhint`.
 
 ***
 
@@ -208,12 +222,10 @@ la web puedan acceder a él es algo común en proyectos de desarrollo de softwar
 
 En este proyecto, utilizaremos _Github Pages_ para desplegar nuestro sitio web.
 
-El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
- consultar su [documentación oficial](https://docs.github.com/es/pages).
+Con el  comando `npm run deploy` para realizar esta tarea, para consultar su [documentación oficial](https://docs.github.com/es/pages).
 
 ## 7. Objetivos de aprendizaje
-
-Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
+Al realizar la estrategia de trabajo.
 
 ### HTML
 
@@ -337,6 +349,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
   * [Empezando con Jest - Documentación oficial](https://jestjs.io/docs/es-ES/getting-started)
 </p></details>
 
+
 - [ ] **Módulos de ECMAScript (ES Modules)**
 
   <details><summary>Links</summary><p>
@@ -378,7 +391,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### Prepara tu PC para trabajar
 
-1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
+1. Asegúrarse de tener un :pencil: editor de texto en
    condiciones, algo como [VS Code](https://code.visualstudio.com/).
 2. Para ejecutar los comandos a continuación necesitarás una :shell:
    [UNIX Shell](https://curriculum.laboratoria.la/es/topics/shell),
@@ -401,6 +414,7 @@ Debes realizar un :fork_and_knife:
    `npm start` para arrancar el servidor web y dirígete a
    `http://localhost:5000` en tu navegador.
 8. A codear se ha dicho! :rocket:
+---
 
 ### Recursos y temas relacionados
 
@@ -444,17 +458,18 @@ Organización del Trabajo:
 * [Blog: cómo funciona el algoritmo de Luhn](http://www.quobit.mx/asi-funciona-el-algoritmo-de-luhn-para-generar-numeros-de-tarjetas-de-credito.html).
 
 ***
+---
 
 ## 9. Para considerar Project Feedback
 
 En resumen, los criterios de aceptación mínimos del proyecto para considerar
 Project Feedback:
 
-* [ ] Tiene una interfaz que permite a la usuaria saber si la tarjeta es valido
+* [x] Tiene una interfaz que permite a la usuaria saber si la tarjeta es valido
   y ocultar el numero hasta las 4 ultimos digitos.
-* [ ] El proyecto será entregado incluyendo pruebas unitarios de los métodos de
+* [x] El proyecto será entregado incluyendo pruebas unitarios de los métodos de
   `validator` (`isValid` y `maskify`).
-* [ ] El proyecto será entregado libre de _errores_ de `eslint` (_warnings_ son ok).
-* [ ] El proyecto será entregado subiendo tu código a GitHub.
-* [ ] La interfaz será "desplegada" usando GitHub Pages.
-* [ ] El README contiene una definición del producto.
+* [x] El proyecto será entregado libre de _errores_ de `eslint` (_warnings_ son ok).
+* [x] El proyecto será entregado subiendo tu código a GitHub.
+* [x] La interfaz será "desplegada" usando GitHub Pages.
+* [x] El README contiene una definición del producto.
