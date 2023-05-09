@@ -1,11 +1,11 @@
-#fondo{
-max-width:100%;
-  max-height:100%;
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(./img/fondo4.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
+
 .titulo-verifica {
   text-align: center;
   color: rgb(221, 47, 134);
@@ -54,12 +54,11 @@ li a:hover {
 }
 
 .tarjeta {
-
   position: absolute;
   left: 50%;
-  top: 15%;
+  top: 13%;
   transform: translateX(-50%);
-  opacity: 75%;
+  opacity: 85%;
 }
 .contenedor_tarjeta {
   position: absolute;
@@ -77,6 +76,7 @@ li a:hover {
 
   font-size: 12px;
 }
+
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   -webkit-appearance: none;
