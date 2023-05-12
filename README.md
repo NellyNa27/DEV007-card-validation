@@ -72,7 +72,7 @@ trabajo cubra los objetivos principales.
   4 caracteres.
 * No debes poder ingresar un campo vacío.
 
-
+![](./images/Readme1.png)x2wdfvb2b qz<jn>
 ![](./images/Readme3.png)
 
 
@@ -89,7 +89,7 @@ GitHub Pages.
 Este proyecto fue diseñado pensando en aquellas personas emprededoras en las que van formando su negocio OnLine y quieren crecer dentro de las redes sociales, creando su propia pagina web de sus productos y generando otra opción de compra y venta con el usuario facilitando otro método de pago.
 
 
-![](./images/Readme1.png)
+
 
 
 * Usuario: **Pastelería Desirée** ***"Un pastel un deseo "*** Diseño de pasteles personalizados de fondant para ese momento inolbidable.
