@@ -8,14 +8,17 @@ botonV.addEventListener("click", () => {
   const result = validator.isValid(cardNumber.value, username.value);
   if (result === true) {
     console.log("¡Tarjeta Válida!");
+    const cardMaskified = validator.maskify(cardNumber.value);
+    console.log (cardMaskified);
+    alert ("Tarjeta válida: " + cardMaskified);
   } else if (result === false) {
     console.log("¡Tarjeta Inválida!");
     alert ("¡Ingresa una tarjeta válida!");
   }
 });
 
-cardNumber.addEventListener("input",function(){
-  const result=validator.maskify(cardNumber.value);
-  console.log(result);
-  alert ("Su tarjeta:"+ result + "se va a verificar");
-});
+// cardNumber.addEventListener("",function(){
+//   const result=validator.maskify(cardNumber.value);
+//   console.log(result);
+//   alert ("Su tarjeta:"+ result + "se va a verificar");
+// });

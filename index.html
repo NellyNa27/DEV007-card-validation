@@ -31,11 +31,11 @@
   <form id="form_tarjeta">
     <div class="contenedor_tarjeta">
       <label for="username">NOMBRE:</label>
-      <input type="tex" value="" name="username" placeholder="Ingresa Tu Nombre" id="username" size="40" required>
+      <input type="text" value="" name="username" placeholder="Ingresa Tu Nombre" id="username" size="40" required>
       <br>
       <label for="cardNumber">INGRESA TU TARJETA:</label>
       <!--Mostrar solo números en "numero de tarjeta"-->
-      <input type="number" name="cardNumber" placeholder="0000-0000-0000-0000" maxlength="16" id="cardNumber" required>
+      <input type="number" name="cardNumber" placeholder="0000-0000-0000-0000" max="99999999999999999" pattern="[0-9]" id="cardNumber" required>
       <br>
       <!--CcV-->
       <label for="nombre">CONTRASEÑA:</label>

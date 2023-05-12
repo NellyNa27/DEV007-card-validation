@@ -53,8 +53,8 @@ const validator = {
     const numMask = primerosNum.replace(/./g, "#");
     console.log(numMask);
 
-    console.log(numMask+cuatroNum);
-    return numMask+cuatroNum;
+    console.log(numMask + cuatroNum);
+    return numMask + cuatroNum;
   },
 };
 
